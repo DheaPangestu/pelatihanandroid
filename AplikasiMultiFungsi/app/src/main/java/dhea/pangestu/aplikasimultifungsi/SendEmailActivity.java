@@ -29,7 +29,7 @@ public class SendEmailActivity extends AppCompatActivity {
         emailIntent.putExtra(Intent.EXTRA_TEXT, txtKonten.getText().toString());
 
         try{
-            startActivity(Intent.createChooser(emailIntent, "Send mail...."));
+            startActivity(Intent.createChooser(emailIntent, "Send mail..."));
             finish();
         }catch (android.content.ActivityNotFoundException ex){
             Toast.makeText(SendEmailActivity.this, "There is no email client installed", Toast.LENGTH_SHORT).show();
