@@ -19,12 +19,13 @@
         android:textAlignment="center"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:background="@color/colorAccent"/>
+        android:textColor="@color/colorAc"
+        android:background="@color/colorPrimaryDark"/>
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent">
+        android:background="@color/colorA">
         <TextView
             android:id="@+id/det_jenis"
             android:layout_width="wrap_content"
